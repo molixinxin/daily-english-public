@@ -1,0 +1,338 @@
+﻿[
+    {
+        "date":  "2026-06-21",
+        "word":  "ethereal",
+        "phonetic":  "/ɪˈθɪəriəl/",
+        "definition":  "空灵的、轻盈得近乎不真实的；常写光线、音乐、气质或景象。",
+        "example":  "The mountains looked almost ethereal in the morning mist."
+    },
+    {
+        "date":  "2026-06-21",
+        "word":  "radiant",
+        "phonetic":  "/ˈreɪdiənt/",
+        "definition":  "容光焕发的、明亮动人的；适合写人、笑容、气场或光感。",
+        "example":  "She looked radiant after hearing the good news."
+    },
+    {
+        "date":  "2026-06-21",
+        "word":  "exquisite",
+        "phonetic":  "/ɪkˈskwɪzɪt/",
+        "definition":  "精致而讲究的；强调细节、品味、工艺或判断力的高级感。",
+        "example":  "The proposal showed an exquisite balance between efficiency and empathy."
+    },
+    {
+        "date":  "2026-06-21",
+        "word":  "haunting",
+        "phonetic":  "/ˈhɔːntɪŋ/",
+        "definition":  "萦绕心头的；带有余韵、深度，常隐含轻微哀感。",
+        "example":  "It was a haunting melody that stayed with me for days."
+    },
+    {
+        "date":  "2026-06-21",
+        "word":  "mesmerizing",
+        "phonetic":  "/ˈmezməraɪzɪŋ/",
+        "definition":  "令人着迷的；不是简单好看，而是让人移不开注意力。",
+        "example":  "Her presentation was mesmerizing because it was deeply clear."
+    },
+    {
+        "date":  "2026-06-21",
+        "word":  "glow",
+        "phonetic":  "/ɡloʊ/",
+        "definition":  "发光、泛光；也可写人神采焕发、情绪温暖地流露出来。",
+        "example":  "The city glowed under the evening sky."
+    },
+    {
+        "date":  "2026-06-21",
+        "word":  "shimmer",
+        "phonetic":  "/ˈʃɪmər/",
+        "definition":  "微微闪烁、泛着柔光；比 shine 更轻、更细腻。",
+        "example":  "The lake shimmered in the late afternoon sun."
+    },
+    {
+        "date":  "2026-06-21",
+        "word":  "captivate",
+        "phonetic":  "/ˈkæptɪveɪt/",
+        "definition":  "吸引并抓住注意力；比 attract 更有沉浸感和感染力。",
+        "example":  "The speaker captivated the audience with a quiet but powerful story."
+    },
+    {
+        "date":  "2026-06-21",
+        "word":  "linger",
+        "phonetic":  "/ˈlɪŋɡər/",
+        "definition":  "逗留；也可写感觉、记忆、气味或影响久久不散。",
+        "example":  "A sense of calm lingered in the room after the music stopped."
+    },
+    {
+        "date":  "2026-06-21",
+        "word":  "wistful",
+        "phonetic":  "/ˈwɪstfəl/",
+        "definition":  "带着温柔惆怅的；不是强烈悲伤，而是轻轻向过去回望。",
+        "example":  "He gave a wistful smile as he looked at the old photos."
+    },
+    {
+        "date":  "2026-06-21",
+        "word":  "melancholy",
+        "phonetic":  "/ˈmelənkɑːli/",
+        "definition":  "沉静的忧郁感；比 sad 更文学、更有层次。",
+        "example":  "There was a quiet melancholy in her voice."
+    },
+    {
+        "date":  "2026-06-21",
+        "word":  "bittersweet",
+        "phonetic":  "/ˌbɪtərˈswiːt/",
+        "definition":  "苦乐参半的；同时包含失落与珍贵感。",
+        "example":  "Leaving the city was bittersweet: painful, but necessary."
+    },
+    {
+        "date":  "2026-06-22",
+        "word":  "lucid",
+        "phonetic":  "/ˈluːsɪd/",
+        "definition":  "清晰易懂的；可写思路、解释、结构或表达非常明朗。",
+        "example":  "Her explanation was lucid enough to align the whole team within minutes."
+    },
+    {
+        "date":  "2026-06-22",
+        "word":  "incisive",
+        "phonetic":  "/ɪnˈsaɪsɪv/",
+        "definition":  "敏锐而切中要害的；适合分析、评论、洞察。",
+        "example":  "He offered an incisive diagnosis of why the project had stalled."
+    },
+    {
+        "date":  "2026-06-22",
+        "word":  "nuanced",
+        "phonetic":  "/ˈnuːɑːnst/",
+        "definition":  "有细微层次和差别的；适合表达复杂判断。",
+        "example":  "The report gives a nuanced view of customer frustration across channels."
+    },
+    {
+        "date":  "2026-06-22",
+        "word":  "cogent",
+        "phonetic":  "/ˈkoʊdʒənt/",
+        "definition":  "论证有力、逻辑严密的；常写观点、理由和方案。",
+        "example":  "She made a cogent case for simplifying the service workflow."
+    },
+    {
+        "date":  "2026-06-22",
+        "word":  "succinct",
+        "phonetic":  "/səkˈsɪŋkt/",
+        "definition":  "简洁而有力的；强调少而准，不拖泥带水。",
+        "example":  "The executive summary was succinct but not shallow."
+    },
+    {
+        "date":  "2026-06-22",
+        "word":  "distill",
+        "phonetic":  "/dɪˈstɪl/",
+        "definition":  "提炼、浓缩；把复杂信息压缩成核心判断。",
+        "example":  "The team distilled months of feedback into three design principles."
+    },
+    {
+        "date":  "2026-06-22",
+        "word":  "clarify",
+        "phonetic":  "/ˈklærəfaɪ/",
+        "definition":  "澄清、说清；常用于需求、责任、口径或规则。",
+        "example":  "We need to clarify the handoff rules before the pilot expands."
+    },
+    {
+        "date":  "2026-06-22",
+        "word":  "pinpoint",
+        "phonetic":  "/ˈpɪnpɔɪnt/",
+        "definition":  "精准指出、定位；适合问题诊断和根因分析。",
+        "example":  "The dashboard helped pinpoint where calls were being transferred unnecessarily."
+    },
+    {
+        "date":  "2026-06-22",
+        "word":  "articulate",
+        "phonetic":  "/ɑːrˈtɪkjəleɪt/",
+        "definition":  "清晰表达；强调想法被准确说出来，而不是只停留在感觉上。",
+        "example":  "He articulated the customer pain points without exaggeration."
+    },
+    {
+        "date":  "2026-06-22",
+        "word":  "disentangle",
+        "phonetic":  "/ˌdɪsɪnˈtæŋɡəl/",
+        "definition":  "理清、拆开纠缠关系；适合流程、责任和问题边界。",
+        "example":  "The workshop helped disentangle billing issues from network complaints."
+    },
+    {
+        "date":  "2026-06-22",
+        "word":  "ambiguous",
+        "phonetic":  "/æmˈbɪɡjuəs/",
+        "definition":  "模糊不清的、有歧义的；常写要求、表述、边界。",
+        "example":  "The instruction was ambiguous, so different teams interpreted it differently."
+    },
+    {
+        "date":  "2026-06-22",
+        "word":  "illuminating",
+        "phonetic":  "/ɪˈluːməneɪtɪŋ/",
+        "definition":  "很有启发、让问题被照亮的；比 insightful 更有“看清楚”的感觉。",
+        "example":  "The interview was illuminating because it revealed what customers actually feared."
+    },
+    {
+        "date":  "2026-06-23",
+        "word":  "measured",
+        "phonetic":  "/ˈmeʒərd/",
+        "definition":  "克制而有分寸的；常写语气、回应、判断，不急不躁但并不软弱。",
+        "example":  "She gave a measured response instead of reacting to the criticism on impulse."
+    },
+    {
+        "date":  "2026-06-23",
+        "word":  "composed",
+        "phonetic":  "/kəmˈpoʊzd/",
+        "definition":  "镇定自持的；强调人在压力下仍保持稳定外观和节奏。",
+        "example":  "He remained composed even when the meeting turned openly hostile."
+    },
+    {
+        "date":  "2026-06-23",
+        "word":  "fraught",
+        "phonetic":  "/frɔːt/",
+        "definition":  "充满紧张或风险的；常写局面、关系、谈判气氛。",
+        "example":  "The discussion was fraught with unspoken frustration from both sides."
+    },
+    {
+        "date":  "2026-06-23",
+        "word":  "strained",
+        "phonetic":  "/streɪnd/",
+        "definition":  "紧绷的、不自然的；可写关系、气氛、笑容、声音。",
+        "example":  "Their exchange sounded polite on the surface, but the tone was strained."
+    },
+    {
+        "date":  "2026-06-23",
+        "word":  "terse",
+        "phonetic":  "/tɜːrs/",
+        "definition":  "简短生硬的；不是高质量的简洁，而是带压缩感甚至不耐烦。",
+        "example":  "His reply was so terse that it ended the conversation immediately."
+    },
+    {
+        "date":  "2026-06-23",
+        "word":  "unflinching",
+        "phonetic":  "/ʌnˈflɪntʃɪŋ/",
+        "definition":  "不退缩的、直面问题的；强调稳住而不是激烈对抗。",
+        "example":  "The report offers an unflinching account of where the rollout failed."
+    },
+    {
+        "date":  "2026-06-23",
+        "word":  "steady",
+        "phonetic":  "/ˈstedi/",
+        "definition":  "稳住、使稳定；在压力语境里常指情绪、节奏或局面被压住。",
+        "example":  "She took a breath to steady her voice before answering."
+    },
+    {
+        "date":  "2026-06-23",
+        "word":  "temper",
+        "phonetic":  "/ˈtempər/",
+        "definition":  "缓和、调节；常指把过强的判断、语气或措施收一收。",
+        "example":  "He tempered the criticism with a practical proposal."
+    },
+    {
+        "date":  "2026-06-23",
+        "word":  "defuse",
+        "phonetic":  "/diːˈfjuːz/",
+        "definition":  "缓和紧张、拆除冲突引爆点；很适合会议、谈判和跨部门协同。",
+        "example":  "A short acknowledgment helped defuse the tension in the room."
+    },
+    {
+        "date":  "2026-06-23",
+        "word":  "brace",
+        "phonetic":  "/breɪs/",
+        "definition":  "使自己做好承受准备；比 prepare 更有“顶住冲击”的意味。",
+        "example":  "We braced for difficult questions before presenting the plan."
+    },
+    {
+        "date":  "2026-06-23",
+        "word":  "relent",
+        "phonetic":  "/rɪˈlent/",
+        "definition":  "态度放软、停止强硬；常写僵持之后终于松口。",
+        "example":  "After weeks of resistance, the client finally relented on the timeline."
+    },
+    {
+        "date":  "2026-06-23",
+        "word":  "exasperated",
+        "phonetic":  "/ɪɡˈzæspəreɪtɪd/",
+        "definition":  "被反复消耗到不耐烦的；比 angry 更接近“烦透了”。",
+        "example":  "She sounded exasperated rather than angry, which made the complaint more revealing."
+    },
+    {
+        "date":  "2026-06-24",
+        "word":  "discerning",
+        "phonetic":  "/dɪˈsɜːrnɪŋ/",
+        "definition":  "有鉴别力的、眼光挑得准的；不是挑剔，而是能看出质量差异和细微层次。",
+        "example":  "A discerning reader can tell when confidence is masking weak evidence."
+    },
+    {
+        "date":  "2026-06-24",
+        "word":  "judicious",
+        "phonetic":  "/dʒuːˈdɪʃəs/",
+        "definition":  "审慎而判断得当的；强调拿捏分寸，不轻率也不拖沓。",
+        "example":  "She made a judicious decision to pause the rollout until the data was cleaner."
+    },
+    {
+        "date":  "2026-06-24",
+        "word":  "scrupulous",
+        "phonetic":  "/ˈskruːpjələs/",
+        "definition":  "极其严谨、讲究准确与原则的；适合写事实核查、标准和职业操守。",
+        "example":  "The analyst was scrupulous about separating evidence from assumption."
+    },
+    {
+        "date":  "2026-06-24",
+        "word":  "dubious",
+        "phonetic":  "/ˈduːbiəs/",
+        "definition":  "可疑的、不太站得住的；常写论点、来源、好处或承诺。",
+        "example":  "The claimed savings looked dubious once the hidden service costs were included."
+    },
+    {
+        "date":  "2026-06-24",
+        "word":  "tenable",
+        "phonetic":  "/ˈtenəbəl/",
+        "definition":  "站得住脚的、可维持的；常用于判断一个观点、立场或方案还能不能成立。",
+        "example":  "That explanation is no longer tenable now that the customer journey has been mapped."
+    },
+    {
+        "date":  "2026-06-24",
+        "word":  "cavalier",
+        "phonetic":  "/ˌkævəˈlɪr/",
+        "definition":  "漫不经心到近乎轻慢的；常批评别人对风险、规则或他人感受不够郑重。",
+        "example":  "A cavalier attitude toward compliance can damage trust long before it causes a formal breach."
+    },
+    {
+        "date":  "2026-06-24",
+        "word":  "substantiate",
+        "phonetic":  "/səbˈstænʃieɪt/",
+        "definition":  "用证据证实、坐实；比 prove 更正式，常用于报告、争议和主张。",
+        "example":  "If we want the recommendation to land, we need to substantiate it with clearer field data."
+    },
+    {
+        "date":  "2026-06-24",
+        "word":  "qualify",
+        "phonetic":  "/ˈkwɑːləfaɪ/",
+        "definition":  "给判断加限定、保留条件；不是否定，而是把话说得更准确。",
+        "example":  "He qualified the forecast by noting that rural usage patterns may distort the national average."
+    },
+    {
+        "date":  "2026-06-24",
+        "word":  "infer",
+        "phonetic":  "/ɪnˈfɜːr/",
+        "definition":  "推断、据迹象得出结论；强调不是明说，而是从线索中读出来。",
+        "example":  "From the silence after the demo, she inferred that the team still had unresolved concerns."
+    },
+    {
+        "date":  "2026-06-24",
+        "word":  "undercut",
+        "phonetic":  "/ˌʌndərˈkʌt/",
+        "definition":  "削弱、拆掉支撑；可写论点、可信度、士气或价格体系被削弱。",
+        "example":  "Overpromising in the first meeting can undercut your credibility later."
+    },
+    {
+        "date":  "2026-06-24",
+        "word":  "dismiss",
+        "phonetic":  "/dɪˈsmɪs/",
+        "definition":  "轻率地否定、不当回事；在正式语境里常带有“没认真看”的批评意味。",
+        "example":  "It would be a mistake to dismiss the complaint just because the metrics look stable."
+    },
+    {
+        "date":  "2026-06-24",
+        "word":  "warranted",
+        "phonetic":  "/ˈwɔːrəntɪd/",
+        "definition":  "有根据的、合理必要的；常用来判断担忧、行动或升级是否值得。",
+        "example":  "Given the repeated billing errors, a deeper review is clearly warranted."
+    }
+]

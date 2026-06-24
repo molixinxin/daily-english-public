@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Daily Advanced English | 2026-06-24</title>
+  <style>
+    :root {
+      --paper: #f5f0e7;
+      --panel: rgba(255, 252, 246, 0.93);
+      --ink: #1f2933;
+      --muted: #5f6c7b;
+      --line: #d8d1c4;
+      --accent: #8c3d1e;
+      --accent-soft: rgba(140, 61, 30, 0.10);
+      --deep: #17324d;
+      --olive: #556b2f;
+      --shadow: 0 18px 46px rgba(31, 41, 51, 0.08);
+      --zh: "Microsoft YaHei", Arial, sans-serif;
+      --en: Georgia, "Times New Roman", serif;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 12% 10%, rgba(140, 61, 30, 0.12), transparent 24%),
+        radial-gradient(circle at 90% 15%, rgba(85, 107, 47, 0.10), transparent 20%),
+        linear-gradient(180deg, #fcfaf6 0%, var(--paper) 100%);
+      font-family: var(--zh);
+      line-height: 1.68;
+    }
+    .shell {
+      max-width: 1140px;
+      margin: 0 auto;
+      padding: 28px 18px 56px;
+    }
+    .hero {
+      position: relative;
+      overflow: hidden;
+      padding: 34px 24px 30px;
+      border-radius: 26px;
+      border: 1px solid rgba(255, 255, 255, 0.62);
+      background:
+        linear-gradient(135deg, rgba(255,255,255,0.90), rgba(248, 242, 233, 0.88)),
+        linear-gradient(180deg, rgba(140, 61, 30, 0.03), transparent);
+      box-shadow: var(--shadow);
+    }
+    .hero::after {
+      content: "";
+      position: absolute;
+      right: -36px;
+      bottom: -54px;
+      width: 210px;
+      height: 210px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(85, 107, 47, 0.15), transparent 70%);
+      pointer-events: none;
+    }
+    .date {
+      font-family: var(--zh);
+      color: var(--accent);
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+    h1 {
+      margin: 10px 0 12px;
+      max-width: 760px;
+      font-family: var(--en);
+      font-size: clamp(34px, 5vw, 68px);
+      line-height: 1.02;
+    }
+    .lead,
+    .cn,
+    .meta,
+    .note,
+    .practice,
+    .links a,
+    .tone-list,
+    .label,
+    .tip,
+    .pattern,
+    .mini-note {
+      font-family: var(--zh);
+    }
+    .lead {
+      margin: 0;
+      max-width: 780px;
+      color: var(--muted);
+      font-size: 18px;
+    }
+    .meta {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 12px;
+      margin-top: 22px;
+    }
+    .meta-card {
+      padding: 14px 16px;
+      border-radius: 16px;
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,0.76);
+    }
+    .meta-card strong {
+      font-family: var(--en);
+    }
+    .label {
+      display: block;
+      margin-bottom: 6px;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--accent);
+    }
+    section {
+      margin-top: 28px;
+      padding: 24px 20px;
+      border-radius: 22px;
+      border: 1px solid rgba(216, 209, 196, 0.86);
+      background: var(--panel);
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(6px);
+    }
+    h2 {
+      margin: 0 0 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--line);
+      font-size: 24px;
+      font-family: var(--zh);
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 14px;
+    }
+    .card,
+    .panel {
+      background: rgba(255,255,255,0.86);
+      border: 1px solid rgba(216, 209, 196, 0.9);
+      border-radius: 18px;
+      padding: 18px;
+    }
+    .word {
+      display: flex;
+      align-items: baseline;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 8px;
+    }
+    .speak-word {
+      border: 0;
+      background: transparent;
+      padding: 0;
+      margin: 0;
+      font-family: var(--en);
+      font-size: 28px;
+      font-weight: 700;
+      color: var(--ink);
+      cursor: pointer;
+      text-align: left;
+      transition: color 180ms ease, transform 180ms ease;
+    }
+    .speak-word:hover,
+    .speak-word:focus-visible {
+      color: var(--accent);
+      text-decoration: underline;
+      outline: none;
+      transform: translateY(-1px);
+    }
+    .phonetic {
+      color: var(--accent);
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+    }
+    .example {
+      margin: 0;
+      font-family: var(--en);
+      font-style: italic;
+      color: var(--deep);
+    }
+    .subgrid {
+      display: grid;
+      grid-template-columns: 1.08fr 0.92fr;
+      gap: 16px;
+    }
+    .pattern {
+      margin-top: 14px;
+      padding: 14px 16px;
+      border-left: 4px solid var(--accent);
+      border-radius: 0 14px 14px 0;
+      background: linear-gradient(90deg, rgba(140, 61, 30, 0.12), rgba(140, 61, 30, 0.04));
+      font-size: 18px;
+    }
+    .tone-list {
+      margin: 0;
+      padding-left: 18px;
+      color: var(--muted);
+    }
+    .tone-list li { margin: 10px 0; }
+    .mini-note {
+      margin: 0 0 10px;
+      color: var(--muted);
+    }
+    blockquote {
+      margin: 0;
+      padding: 22px 24px;
+      border-left: 5px solid var(--olive);
+      border-radius: 16px;
+      background: linear-gradient(180deg, #fbf8ef, #f7f1e2);
+      font-family: var(--en);
+      font-size: 27px;
+      line-height: 1.4;
+    }
+    .note,
+    .tip {
+      color: var(--muted);
+      margin-top: 14px;
+    }
+    .practice ol {
+      margin: 0;
+      padding-left: 22px;
+    }
+    .practice li { margin: 10px 0; }
+    .footer-note {
+      margin-top: 20px;
+      color: var(--muted);
+      font-size: 14px;
+      font-family: var(--zh);
+    }
+    @media (max-width: 780px) {
+      .shell { padding: 18px 14px 40px; }
+      .hero, section { padding: 20px 16px; border-radius: 18px; }
+      .subgrid { grid-template-columns: 1fr; }
+      blockquote { font-size: 23px; }
+      .speak-word { font-size: 25px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <header class="hero">
+      <div class="date">Daily Advanced English | 2026-06-24</div>
+      <h1>Judgment And Credibility</h1>
+      <p class="lead">今天练的不是单纯“分析能力”，而是更实用的判断语言：什么站得住，什么可疑，哪里需要保留，什么会削弱可信度。适合写观点、会上发言、方案判断和正式评论。</p>
+      <div class="meta">
+        <div class="meta-card"><span class="label">今日主题</span><strong>Discernment, evidence, and restraint</strong></div>
+        <div class="meta-card"><span class="label">学习目标</span><span class="cn">把“有眼光”“站不住脚”“需要证据”“别说太满”这些判断说得更成熟。</span></div>
+        <div class="meta-card"><span class="label">使用场景</span><span class="cn">研究结论、客户沟通、风险提示、汇报表达、反驳与保留。</span></div>
+      </div>
+    </header>
+
+    <section>
+      <h2>1. 今日词汇卡片</h2>
+      <div class="grid">
+        <article class="card"><div class="word"><button class="speak-word" type="button" data-word="discerning" aria-label="Play pronunciation for discerning">discerning</button><span class="phonetic">/dɪˈsɜːrnɪŋ/</span></div><p class="cn">有鉴别力。不是单纯挑剔，而是能看出质量和语气上的细微差异。</p><p class="example">A discerning reader can tell when confidence is masking weak evidence.</p></article>
+        <article class="card"><div class="word"><button class="speak-word" type="button" data-word="judicious" aria-label="Play pronunciation for judicious">judicious</button><span class="phonetic">/dʒuːˈdɪʃəs/</span></div><p class="cn">审慎而得当。强调判断拿捏准，不鲁莽，也不拖泥带水。</p><p class="example">She made a judicious decision to pause the rollout until the data was cleaner.</p></article>
+        <article class="card"><div class="word"><button class="speak-word" type="button" data-word="scrupulous" aria-label="Play pronunciation for scrupulous">scrupulous</button><span class="phonetic">/ˈskruːpjələs/</span></div><p class="cn">极其严谨、讲原则。很适合写证据、事实边界和职业操守。</p><p class="example">The analyst was scrupulous about separating evidence from assumption.</p></article>
+        <article class="card"><div class="word"><button class="speak-word" type="button" data-word="dubious" aria-label="Play pronunciation for dubious">dubious</button><span class="phonetic">/ˈduːbiəs/</span></div><p class="cn">可疑、靠不住。比 wrong 更柔一点，但批判意味很明确。</p><p class="example">The claimed savings looked dubious once the hidden service costs were included.</p></article>
+        <article class="card"><div class="word"><button class="speak-word" type="button" data-word="tenable" aria-label="Play pronunciation for tenable">tenable</button><span class="phonetic">/ˈtenəbəl/</span></div><p class="cn">站得住脚、还能成立。很适合评价解释、立场和方案逻辑。</p><p class="example">That explanation is no longer tenable now that the customer journey has been mapped.</p></article>
+        <article class="card"><div class="word"><button class="speak-word" type="button" data-word="cavalier" aria-label="Play pronunciation for cavalier">cavalier</button><span class="phonetic">/ˌkævəˈlɪr/</span></div><p class="cn">轻慢到有点不负责任。常批评别人对风险或规则不够郑重。</p><p class="example">A cavalier attitude toward compliance can damage trust long before it causes a formal breach.</p></article>
+        <article class="card"><div class="word"><button class="speak-word" type="button" data-word="substantiate" aria-label="Play pronunciation for substantiate">substantiate</button><span class="phonetic">/səbˈstænʃieɪt/</span></div><p class="cn">用证据坐实。正式场景很好用，比 prove 更像报告语言。</p><p class="example">If we want the recommendation to land, we need to substantiate it with clearer field data.</p></article>
+        <article class="card"><div class="word"><button class="speak-word" type="button" data-word="qualify" aria-label="Play pronunciation for qualify">qualify</button><span class="phonetic">/ˈkwɑːləfaɪ/</span></div><p class="cn">给判断加限定。不是退缩，而是把话说准，避免说满。</p><p class="example">He qualified the forecast by noting that rural usage patterns may distort the national average.</p></article>
+        <article class="card"><div class="word"><button class="speak-word" type="button" data-word="infer" aria-label="Play pronunciation for infer">infer</button><span class="phonetic">/ɪnˈfɜːr/</span></div><p class="cn">推断。强调从线索中读出结论，而不是别人直接说出来。</p><p class="example">From the silence after the demo, she inferred that the team still had unresolved concerns.</p></article>
+        <article class="card"><div class="word"><button class="speak-word" type="button" data-word="undercut" aria-label="Play pronunciation for undercut">undercut</button><span class="phonetic">/ˌʌndərˈkʌt/</span></div><p class="cn">削弱、拆台。常写可信度、论证、价格体系或团队士气被削弱。</p><p class="example">Overpromising in the first meeting can undercut your credibility later.</p></article>
+        <article class="card"><div class="word"><button class="speak-word" type="button" data-word="dismiss" aria-label="Play pronunciation for dismiss">dismiss</button><span class="phonetic">/dɪˈsmɪs/</span></div><p class="cn">轻率否定、不当回事。这个词常带“没有认真看”的批评意味。</p><p class="example">It would be a mistake to dismiss the complaint just because the metrics look stable.</p></article>
+        <article class="card"><div class="word"><button class="speak-word" type="button" data-word="warranted" aria-label="Play pronunciation for warranted">warranted</button><span class="phonetic">/ˈwɔːrəntɪd/</span></div><p class="cn">有根据、有必要。很适合判断担忧、调查、升级动作是否合理。</p><p class="example">Given the repeated billing errors, a deeper review is clearly warranted.</p></article>
+      </div>
+    </section>
+
+    <section>
+      <h2>2. 动词升级</h2>
+      <div class="subgrid">
+        <div class="panel">
+          <div class="pattern">不要总说 <strong>I think this is not right</strong>。今天更成熟的表达是：<strong>substantiate</strong> the claim, <strong>qualify</strong> the conclusion, <strong>infer</strong> the motive, <strong>undercut</strong> the argument, or refuse to <strong>dismiss</strong> the risk.</div>
+          <p class="tip">这些词让你的判断更像分析，而不是情绪反应。它们把“我觉得”推进到“我为什么这样判断”。</p>
+        </div>
+        <div class="panel">
+          <p class="mini-note">今天特别值得分开的三组语感：</p>
+          <ul class="tone-list">
+            <li><strong>discerning</strong> 是眼光准，不等于高冷。</li>
+            <li><strong>judicious</strong> 是决策分寸好，不等于保守。</li>
+            <li><strong>scrupulous</strong> 是对事实边界讲究到近乎苛刻。</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>3. 情绪 / 语气细分</h2>
+      <div class="panel">
+        <p class="cn">正式表达里，“我不太相信”也有很多层级。今天可以这样细分：</p>
+        <ul class="tone-list">
+          <li><strong>dubious</strong>: 我怀疑它站不住，但还没有直接判死刑。</li>
+          <li><strong>cavalier</strong>: 我批评的不是结果，而是对待问题的态度太轻慢。</li>
+          <li><strong>tenable</strong>: 我在判断这个说法还能不能继续成立。</li>
+          <li><strong>warranted</strong>: 我在判断进一步行动是否有足够根据。</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>4. 今日摘录</h2>
+      <blockquote>“Read not to contradict and confute; nor to believe and take for granted; but to weigh and consider.”<br><small>Francis Bacon, <em>Of Studies</em></small></blockquote>
+      <p class="note">这句好在节奏像一把刀，连续排除了两种低质量阅读姿态：为反驳而读，或不加判断地接受。最后落到 <em>weigh and consider</em>，既有理性，也有分寸，非常适合拿来提醒自己如何做判断。</p>
+      <div class="pattern">可仿写：Listen not to reply at once, but to weigh what remains unsaid.</div>
+    </section>
+
+    <section class="practice">
+      <h2>5. 今日练习</h2>
+      <ol>
+        <li>用 <strong>discerning / judicious / scrupulous</strong> 各写一句，描述一个优秀分析者的不同侧面。</li>
+        <li>把这句改得更成熟：<em>I don't really believe this number.</em> 尝试用 <strong>dubious / tenable / substantiate</strong>。</li>
+        <li>用 <strong>qualify / infer / undercut / dismiss</strong> 各写一句工作场景句子。</li>
+        <li>写两句对比：一句用 <strong>cavalier</strong> 批评态度，一句用 <strong>warranted</strong> 说明为什么升级处理是合理的。</li>
+        <li>仿写 Bacon 句式，使用 “not to..., nor to..., but to...” 写一句关于开会、阅读或研究的句子。</li>
+      </ol>
+      <p class="footer-note">这是可公开分享的静态版本。分享时请发网页 URL，不要发本地磁盘路径。</p>
+    </section>
+  </main>
+
+  <script>
+    function speakWord(word) {
+      if (!("speechSynthesis" in window)) return;
+      window.speechSynthesis.cancel();
+      const utterance = new SpeechSynthesisUtterance(word);
+      utterance.lang = "en-US";
+      utterance.rate = 0.88;
+      window.speechSynthesis.speak(utterance);
+    }
+
+    document.addEventListener("click", (event) => {
+      const button = event.target.closest(".speak-word");
+      if (!button) return;
+      speakWord(button.dataset.word || button.textContent.trim());
+    });
+  </script>
+</body>
+</html>
